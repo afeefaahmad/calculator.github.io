@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto:wght@300&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Playfair Display', serif
+}
+
+body {
+  background-image: url('https://cdn.pixabay.com/photo/2013/09/01/17/07/calculator-178127_1280.jpg');
+}
+
+h1 {
+  color: white;
+  font-size: 4rem;
+}
+
+.row {
+  margin: 8px 0;
+}
+
+button {
+  padding: 25px;
+  margin: 0 3px;
+  border: 2px solid black;
+  border-radius: 9px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.row input {
+  font-size: 15px;
+  padding: 10px 0;
+  margin: 0;
+  padding: 10px 38px;
+  border: 2px solid black;
+  border-radius: 5px;
+
+}
